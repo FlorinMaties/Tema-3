@@ -1,10 +1,24 @@
+import DetaliiProdus from "./DetaliiProdus";
+
 const Exercitiul1 = () => {
-  return <div className="Exercitiul1">
-      <div className="denumire"></div>
-      <div className="pret"></div>
-      <div className="categorie"></div>
-      <div className="culoarea categoriei"></div>
-  </div>;
+  return (
+    <div className="ExercitiulX">
+      <DetaliiProdus
+        denumire="Sapun"
+        pret="33.4 RON"
+        categorie="beauty"
+        culoare="red"
+      />
+      <DetaliiProdus
+        denumire="Sampon"
+        pret="666.2 RON"
+        categorie="beauty"
+        culoare="purple"
+      />
+      <DetaliiProdus denumire="Ruj" />
+      <p>Extercitiul1</p>
+    </div>
+  );
 };
 
 export default Exercitiul1;
