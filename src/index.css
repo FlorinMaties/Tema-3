@@ -4,7 +4,15 @@
   text-align: center;
 }
 
+.extercitiu-2{
+  border:2px solid blue
+}
+
 .App {
   padding: 10px;
   
+}
+
+.favorite-color{
+  color: green;
 }
